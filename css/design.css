@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar:wght@100;200;300;400;500;600;700&family=Stylisht&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap');
+
+
+.section-titles{
+  height: 250px;
+  color: white;
+  border-radius: 10px;
+  background-color: #023047;
+  padding-top: 50px; 
+  margin-top: 100px;
+}
+
+hr{
+  
+  width: 250px;
+  margin: 30px auto;
+}
+
+.section-titles h2{
+    font-size: 30px;
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    font-family: Prata,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+/* gallery starts here */
+
+
+.gallery-title{
+  height: auto;
+  color: #000;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.item1{
+  background-image: url("2.png");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat; 
+  border: #000;    
+
+}
+.item2{
+  background-image: url("3.jpg"); 
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;   
+  border: #000;  
+}
+.item3{
+  background-image: url("4.jpg");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;  
+  border: #000;   
+}
+.item4{
+  background-image: url("3.jpg");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;   
+  border: #000; 
+}
+.item5{
+  background-image: url("5.jpg");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;   
+  border: #000; 
+}
+.item6{
+  background-image: url("6.webp");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;   
+  border: #000; 
+}
+.item7{
+  background-image: url("8.jpg");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;   
+  border: #000; 
+}
+.item8{
+  background-image: url("1.jpg");
+  height: 250px;
+  width: 25%;
+  background-size:cover;
+  background-repeat: no-repeat;   
+  border: #000; 
+}
+
+
+
+
+/* gallery ends here */
+
+.about-us{
+  height: 500px;
+  color: #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+/* about us starts here */
+
+.about{
+height: 200px;
+width: 200px;
+border-radius: 100%;
+align-items: center;
+}
+/* about us starts here */
+
+/* services starts here */
+.services{
+  height: 500px;
+  color: #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.team{
+  
+  height: 500px;
+  color: black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.contact-us{
+  height: 500px;
+  color: black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
