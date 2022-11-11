@@ -977,7 +977,6 @@ h3 {
   width: 100%;
   top: 0;
   z-index: 9;
-
 }
 
 @media (max-width: 767px) {
@@ -1007,8 +1006,6 @@ h3 {
   z-index: 999;
   top: 0px;
   bottom: auto;
-
-  
 }
 
 @media (max-width: 767px) {
@@ -1197,7 +1194,6 @@ h3 {
 .active{
   color: #ffffff !important;
 }
-
 
 
 /* a before */
@@ -2275,9 +2271,6 @@ h3 {
   bottom: 0;
 }
 
-
-
-
 /* line 45, ../../to complete_latest_activites.scss */
 .latest_activites_area .activites_info {
   padding-right: 156px;
@@ -2558,12 +2551,6 @@ h3 {
   .counter_area .counter_bg {
     padding: 64px 25px;
   }
-}
-
-/* line 15, ../../to complete_counter.scss */
-.counter_area .overlay:before {
-  background: #3CC78F;
-  opacity: .6;
 }
 
 /* line 20, ../../to complete_counter.scss */
@@ -3593,15 +3580,6 @@ h6 {
 /* line 432, ../../to complete_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-8 {
   background-color: #e66686;
-}
-
-/* line 441, ../../to complete_elements.scss */
-.single-gallery-image {
-  margin-top: 30px;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  background-size: cover !important;
-  height: 200px;
 }
 
 /* line 449, ../../to complete_elements.scss */

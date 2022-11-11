@@ -75,21 +75,51 @@
         <hr/>
         <h2 class="title"> Our Awesome Gallery </h2>            
     </section>
+        
+<div class="gallery-section">
+    <div class="inner-width">
+        <div class="gallery">
 
-    <div class="gallery">
-        <img src="img/gallery/1.jpg" title="TITLE 1"/>
-        <img src="img/gallery/2.jpg" title="TITLE 2"/>
-        <img src="img/gallery/1.jpg" title="TITLE 3"/>
-        <img src="img/gallery/2.jpg" title="TITLE 4"/>
-        <img src="img/gallery/5.jpg" title="TITLE 5"/>
-        <img src="img/gallery/6.jpg" title="TITLE 6"/>
-        <img src="img/gallery/4.jpg" title="TITLE 1"/>
-        <img src="img/gallery/2.jpg" title="TITLE 2"/>
-        <img src="img/gallery/1.jpg" title="TITLE 3"/>
-        <img src="img/gallery/4.jpg" title="TITLE 4"/>
-        <img src="img/gallery/5.jpg" title="TITLE 5"/>
-        <img src="img/gallery/6.jpg" title="TITLE 6"/>
-      </div>
+          
+
+          <a href="img/gallery/9.jpg" class="image">
+            <img src="img/gallery/9.jpg" alt="">
+          </a>
+
+          <a href="img/gallery/10.jpg" class="image">
+            <img src="img/gallery/10.jpg" alt="">
+          </a>
+
+          <a href="img/gallery/11.jpg" class="image">
+            <img src="img/gallery/11.jpg" alt="">
+          </a>
+
+          <a href="img/gallery/12.jpg" class="image">
+            <img src="img/gallery/12.png" alt="">
+          </a>
+
+          <a href="img/gallery/14.jpg" class="image">
+            <img src="img/gallery/8.jpg" alt="">
+          </a>
+
+          <a href="img/gallery/7.jpg" class="image">
+            <img src="img/gallery/7.jpg" alt="">
+          </a>
+
+          <a href="img/gallery/6.jpg" class="image">
+            <img src="img/gallery/6.jpg" alt="">
+          </a>
+
+          <a href="img/gallery/5.jpg" class="image">
+            <img src="img/gallery/5.jpg" alt="">
+          </a>
+
+        </div>
+    </div>
+</div>
+
+
+ 
 
        <!-- footer_start  -->
        <footer class="footer">
@@ -148,9 +178,11 @@
                                 Contacts
                             </h3>
                             <div class="contacts">
-                                <a href="tel:+233 556 309 512">+233 556 309 512 </a> <br>
-                                <a href=mailto:info@openaidbridge.com >info@openaidbridge.com</a><br>
-                                <p>Abeka junction, Accra, Ghana </p>
+                                <ul>
+                                <li> <a href="tel:+233 556 309 512">+233 556 309 512 </a></li>
+                                <li> <a href=mailto:info@openaidbridge.com >info@openaidbridge.com</a></li>
+                                </ul>
+                                <p>  Abeka junction, Accra, Ghana</p>
                             </div>
                         </div>
                     </div>
@@ -202,8 +234,17 @@
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
-
     <script src="js/main.js"></script>
+
+    <script>
+        $(".gallery").magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery:{
+            enabled: true
+          }
+        });
+      </script>
 </body>
 
 </html>
