@@ -39,6 +39,7 @@ hr{
   width: 100%;
   padding: 20px 0;
   background: #e2d9d9;
+  overflow: scroll;
 }
 
 .inner-width{
@@ -61,6 +62,7 @@ hr{
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
+  
 }
 
 .gallery-section .image{
