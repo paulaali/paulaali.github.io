@@ -745,6 +745,7 @@ h3 {
   position: relative;
   display: inline-block;
   z-index: 2;
+  font-weight: 400;
 }
 
 /* line 13, ../../to complete_section_title.scss */
