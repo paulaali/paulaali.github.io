@@ -788,7 +788,7 @@ h3 {
 /* line 40, ../../to complete_section_title.scss */
 .section_title p {
   font-size: 16px;
-  color: #6b6a6a;
+  color: #2f2f30;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -1428,6 +1428,24 @@ h3 {
   padding-left: 23px;
 }
 
+.section-titles{
+  height: 230px;
+  color: white;
+  border-radius: 10px;
+  background-color: #023047;
+  padding-top: 50px; 
+  margin-top: 100px;
+}
+
+
+.section-titles h2{
+    font-size: 30px;
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: white;
+}
+
 /* line 54, ../../to complete_offers.scss */
 .offers_area .single_offers ul li::before {
   position: absolute;
@@ -1444,7 +1462,7 @@ h3 {
   border-radius: 50%;
 }
 
-/* line 67, ../../to complete_offers.scss */
+/* ABOUT */
 .offers_area .single_offers a {
   width: 100%;
   text-align: center;

@@ -2,30 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap');
 
 
-.section-titles{
-  height: 230px;
-  color: white;
-  border-radius: 10px;
-  background-color: #023047;
-  padding-top: 50px; 
-  margin-top: 100px;
-}
-
-hr{
-  
-  width: 250px;
-  margin: 30px auto;
-}
-
-.section-titles h2{
-    font-size: 30px;
-    line-height: 1.6em;
-    letter-spacing: .1em;
-    font-family: Prata,sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-}
 /* gallery starts here */
 
 *{
