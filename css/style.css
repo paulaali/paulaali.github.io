@@ -1978,7 +1978,7 @@ h3 {
   font-size: 22px;
   font-weight: 400;
   color: #fff;
-  max-width: 40%;
+  max-width: 0%;
   text-transform: capitalize;
   margin-bottom: 35px;
 }
@@ -2273,6 +2273,7 @@ h3 {
 .reson_area .help_content p {
   margin-top: 15px;
   text-align: justify;
+  word-spacing:-2px;
   color: #2f2f30;
 }
 .help_content{
