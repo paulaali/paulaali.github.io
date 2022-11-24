@@ -324,7 +324,7 @@ h3 {
   background: transparent;
   height: 60px;
   left: 0px;
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 50%;
   bottom: 10px;
