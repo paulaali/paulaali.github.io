@@ -2273,7 +2273,7 @@ h3 {
 .reson_area .help_content p {
   margin-top: 15px;
   text-align: justify;
-  word-spacing:-2px;
+  word-spacing:-3px;
   text-justify: inter-word;
   color: #2f2f30;
 }
