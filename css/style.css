@@ -2274,7 +2274,7 @@ h3 {
   margin-top: 15px;
   text-align: justify;
   word-spacing:-2px;
-  text-justify: distribute;
+  text-justify: inter-word;
   color: #2f2f30;
 }
 .help_content{
