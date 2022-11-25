@@ -25,13 +25,14 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/design.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ5w_AhQRUelyJP-4ehM6QN1tcUCLlgvY"></script>
-
 </head>
-<body>
 
+<body>
 
     <!-- header-start -->
     <header>
@@ -51,7 +52,7 @@
 
                                         <div class="Appointment">
                                             <div class="book_btn d-none d-lg-block">
-                                                <a  href="charibuy.html">ChariBuy</a>
+                                                <a href="charibuy.html">ChariBuy</a>
                                             </div>
                                         </div>
                                 <nav>
@@ -59,8 +60,8 @@
                                         <li><a href="index.html">HOME</a></li>
                                         <li><a href="about.html">ABOUT</a></li>
                                         <li><a  href="services.html">SERVICES</a></li>
-                                        <li><a class="active"  href="contact.html">CONTACT</a></li>
-                                        <li><a  href="gallery.html">GALLERY</li>
+                                        <li><a href="contact.html">CONTACT</a></li>
+                                        <li><a href="gallery.html">GALLERY</li>
                                     </ul>
                                 </nav>
                             </div>
@@ -74,80 +75,168 @@
         </div>
     </header>
     <!-- header-end -->
+
     <section class="section-titles" style="text-align: center">
         <img src="img/symbol.webp " height="100px">
-        <h2 class="title"> Contact Us </h2>            
+        <h2 class="title"> Proudly African Made </h2>            
     </section>
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
-            <div class="container">
-                <div class="d-none d-sm-block mb-5 pb-4">
-                    <div id="map" style="height: 500px; position: relative; overflow: hidden;">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="contact-title">Get in Touch</h2>
-                    </div>
-                    <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
-                                    </div>
-                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-home"></i></span>
-                            <div class="media-body">
-                                <h3>Accra, Gana.</h3>
-                                <p>Abeka junction</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                            <div class="media-body">
-                                <h3>+233 556 309 512</h3>
-                                <p>Mon to Fri 8am to 5pm</p>
-                            </div>
-                        </div>
-                        <div class="media contact-info">
-                            <span class="contact-info__icon"><i class="ti-email"></i></span>
-                            <div class="media-body">
-                                <h3>info@openaidbridge.com </h3>
-                                <p>Send us your query anytime!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!-- ================ contact section end ================= -->
+    <div class="gallery-section">
+        <div class="inner-width">
+            <div class="gallery">
+              
+                <a href="img/gallery/5.jpg" class="image">
+                    <img src="img/gallery/5.jpg" alt="">
+                </a>
+            
+                <a href="img/gallery/6.jpg" class="image">
+                    <img src="img/gallery/6.jpg" alt="">
+                </a>
     
+                <a href="img/gallery/7.jpg" class="image">
+                <img src="img/gallery/7.jpg" alt="">
+                </a>
+    
+                <a href="img/gallery/.8jpg" class="image">
+                <img src="img/gallery/8.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/9.jpg" class="image">
+                    <img src="img/gallery/9.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/10.jpg" class="image">
+                    <img src="img/gallery/10.jpg" alt="">
+                </a>
+        
+                <a href="img/gallery/11.jpg" class="image">
+                    <img src="img/gallery/11.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/12.jpg" class="image">
+                <img src="img/gallery/12.jpg" alt="">
+                </a>
+    
+                <a href="img/gallery/13.jpg" class="image">
+                <img src="img/gallery/13.jpg" alt="">
+                </a>
+    
+                <a href="img/gallery/14.jpg" class="image">
+                <img src="img/gallery/14.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/15.jpg" class="image">
+                    <img src="img/gallery/15.jpg" alt="">
+                </a>
+                
+                <a href="img/gallery/16.jpg" class="image">
+                    <img src="img/gallery/16.jpg" alt="">
+                </a>
+        
+                <a href="img/gallery/17.jpg" class="image">
+                    <img src="img/gallery/17.jpg" alt="">
+                </a>
+        
+                <a href="img/gallery/18.jpg" class="image">
+                    <img src="img/gallery/18.jpg" alt="">
+                </a>
+    
+                <a href="img/gallery/19.jpg" class="image">
+                    <img src="img/gallery/19.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/20.jpg" class="image">
+                    <img src="img/gallery/20.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/21.jpg" class="image">
+                    <img src="img/gallery/21.jpg" alt="">
+                </a>
+                
+                <a href="img/gallery/22.jpg" class="image">
+                    <img src="img/gallery/22.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/23.jpg" class="image">
+                    <img src="img/gallery/23.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/24.jpg" class="image">
+                    <img src="img/gallery/24.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/25.jpg" class="image">
+                    <img src="img/gallery/25.jpg" alt="">
+                </a>
+                
+                <a href="img/gallery/26.jpg" class="image">
+                    <img src="img/gallery/26.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/27.jpg" class="image">
+                    <img src="img/gallery/27.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/28.jpg" class="image">
+                    <img src="img/gallery/28.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/29.jpg" class="image">
+                    <img src="img/gallery/29.jpg" alt="">
+                </a>
+                
+                <a href="img/gallery/30.jpg" class="image">
+                    <img src="img/gallery/30.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/31.jpg" class="image">
+                    <img src="img/gallery/31.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/32.jpg" class="image">
+                    <img src="img/gallery/32.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/33.jpg" class="image">
+                    <img src="img/gallery/33.jpg" alt="">
+                </a>
+                
+                <a href="img/gallery/34.jpg" class="image">
+                    <img src="img/gallery/34.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/35.jpg" class="image">
+                    <img src="img/gallery/35.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/36.jpg" class="image">
+                    <img src="img/gallery/36.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/1.jpg" class="image">
+                    <img src="img/gallery/1.jpg" alt="">
+                </a>
+
+                <a href="img/gallery/2.jpg" class="image">
+                    <img src="img/gallery/2.jpg" alt="">
+                </a>
+    
+                <a href="img/gallery/3.jpg" class="image">
+                    <img src="img/gallery/3.jpg" alt="">
+                </a>
+        
+                 <a href="img/gallery/4.jpg" class="image">
+                    <img src="img/gallery/4.jpg" alt="">
+                </a>
+
+          
+               
+  
+            </div>
+        </div>
+    </div>
+  
+  
 
        <!-- footer_start  -->
        <footer class="footer">
@@ -161,7 +250,7 @@
                                     <img src="img/log.png" alt="">
                                 </a>
                             </div>
-                                <p class="address_text"> For the Sustainability of livelihood and a healthy climate.. </p>
+                            <p class="address_text"> For the Sustainability of livelihood and a healthy climate.. </p>
                               
                             <div class="socail_links">
                                 <ul>
@@ -263,26 +352,19 @@
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
 
+    
     <script>
-        function initMap() {
-          var abeka = {lat: 5.5976032, lng: -0.2230701};
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
-            center: abeka
-          });
-          var marker = new google.maps.Marker({
-            position: abeka,
-            map: map
-          });
-        }
+        $(".gallery").magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery:{
+            enabled: true
+          }
+        });
+      </script>
+    
 
-        initMap();
-        document.addEventListener('load', function(){
-            initMap();
-            console.log('hhh')
-        })
-    </script>
-
+    
 </body>
 
 </html>
