@@ -2768,6 +2768,7 @@ h3 {
   color:#2f2f30;
   margin-bottom: 42px;
   margin-top: 21px;
+  text-align: justify;
 }
 
 .news__area .service {
@@ -2786,6 +2787,7 @@ h3 {
 .news__area .service {
     margin-left: 10px;
     margin-right: 10px;
+    overflow: scroll;
   }
 }
 /* Services end here  */
