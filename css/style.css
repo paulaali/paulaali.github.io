@@ -2743,7 +2743,7 @@ h3 {
 /* newsinfo */
 .news__area .single__blog .newsinfo {
   padding: 20px 40px;
-  max-height: 500px;
+  /*  */
 }
 
 /*newsinfo */
@@ -2766,9 +2766,10 @@ h3 {
   font-size: 16px;
   line-height: 30px;
   color:#2f2f30;
-  margin-bottom: 42px;
+  margin-bottom: 20px;
   margin-top: 21px;
   text-align: justify;
+  overflow:auto;
 }
 
 .news__area .service {
