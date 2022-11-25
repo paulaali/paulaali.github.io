@@ -1072,7 +1072,7 @@ h3 {
 }
 
 /* line 74, ../../to complete_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li {
+.header-area .main-header-area .Appointment .social_links ul li {
   display: inline-block;
 }
 
@@ -2134,24 +2134,24 @@ h3 {
 }
 
 /* line 231, ../../to complete_footer.scss */
-.footer .socail_links {
+.footer .social_links {
   margin-top: 26px;
 }
 
 @media (max-width: 767px) {
   /* line 231, ../../to complete_footer.scss */
-  .footer .socail_links {
+  .footer .social_links {
     margin-top: 20px;
   }
 }
 
 /* line 237, ../../to complete_footer.scss */
-.footer .socail_links ul li {
+.footer .social_links ul li {
   display: inline-block;
 }
 
 /* line 240, ../../to complete_footer.scss */
-.footer .socail_links ul li a {
+.footer .social_links ul li a {
   font-size: 15px;
   color: #C3B2F0;
   width: 30px;
@@ -2165,7 +2165,7 @@ h3 {
 }
 
 /* line 255, ../../to complete_footer.scss */
-.footer .socail_links ul li a:hover {
+.footer .social_links ul li a:hover {
   color: gold !important;
   border-color: transparent;
 }
@@ -2989,6 +2989,12 @@ h3 {
 /* line 36, ../../to complete_contact.scss */
 .contact-info .media-body p {
   color: #8a8a8a;
+}
+
+.contact-info li{
+display: inline-block;
+margin: 10px;
+margin-top: 20px;
 }
 /*=================== contact banner end ====================*/
 /*=================== contact form start ====================*/
